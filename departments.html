@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B.E. Engineering Departments | Anuradha College of Engineering and Technology (ACET)</title>
+  <meta name="description" content="Explore our key B.E. engineering departments: Computer, Information Technology, Mechanical, Electrical, and ENTC at Anuradha College of Engineering and Technology (ACET).">
+  
+  <!-- Custom Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Departments Page Specific Stylesheet -->
+  <link rel="stylesheet" href="css/departments.css">
+</head>
+<body>
+
+  <!-- Floating Er. Vivek Patil Widget -->
+  <div class="vivek-widget-container" id="vivek-widget">
+    <div class="vivek-widget">
+      <button class="vivek-avatar-button" id="vivek-avatar" aria-haspopup="true" aria-label="Er. Vivek Patil Menu">
+        <img src="images/vivek_patil.png" alt="Er. Vivek Patil Profile">
+        <span class="vivek-widget-text">Er. Vivek Patil</span>
+      </button>
+      <div class="vivek-tooltip">
+        <div class="vivek-tooltip-header">
+          <img class="vivek-tooltip-img" src="images/vivek_patil.png" alt="Er. Vivek Patil Profile Picture">
+          <div class="vivek-tooltip-info">
+            <h4>Er. Vivek Patil</h4>
+            <p>Technical Adviser</p>
+          </div>
+        </div>
+        <div class="vivek-tooltip-body">
+          <p>Alumni of Anuradha College of Engineering and Technology (ACET). Partnering with students, alumni, and faculty to deliver modern technical solutions.</p>
+        </div>
+        <div class="vivek-tooltip-actions">
+          <a href="contact.html" class="vivek-btn vivek-btn-primary">Get in Touch</a>
+          <a href="about.html" class="vivek-btn vivek-btn-outline">About Alumni</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo-section">
+        <img src="images/logo.svg" alt="ACET Logo" class="header-logo">
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="departments.html" class="nav-link">Departments</a></li>
+          <li><a href="admissions.html" class="nav-link">Admissions</a></li>
+          <li><a href="academics.html" class="nav-link">Academics</a></li>
+          <li><a href="placement.html" class="nav-link">Placements</a></li>
+          <li><a href="campus-life.html" class="nav-link">Campus Life</a></li>
+          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions (Theme Toggle & Hamburger) -->
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+          <svg class="sun-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z"></path>
+          </svg>
+          <svg class="moon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+          </svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="Toggle Mobile Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="departments-wrapper">
+      <div class="section-header">
+        <span class="section-tag">B.E. Degree Courses</span>
+        <h2 class="section-title">Our Academic Departments</h2>
+      </div>
+
+      <!-- Tab Buttons Navigation -->
+      <div class="dept-tabs-nav reveal">
+        <button class="dept-tab-btn active" data-target="panel-computer">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+          </svg>
+          Computer Engineering
+        </button>
+        <button class="dept-tab-btn" data-target="panel-it">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 9.172V5L8 4z"></path>
+          </svg>
+          Information Technology
+        </button>
+        <button class="dept-tab-btn" data-target="panel-mechanical">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          </svg>
+          Mechanical Engineering
+        </button>
+        <button class="dept-tab-btn" data-target="panel-electrical">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+          Electrical Engineering
+        </button>
+        <button class="dept-tab-btn" data-target="panel-entc">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+          </svg>
+          ENTC Engineering
+        </button>
+      </div>
+
+      <!-- CONTENT PANELS -->
+
+      <!-- 1) COMPUTER ENGINEERING PANEL -->
+      <div class="dept-content-panel active" id="panel-computer" style="display:block;">
+        <div class="dept-hero-grid">
+          <div class="dept-intro">
+            <h2>Computer Engineering (B.E.)</h2>
+            <p>The Department of Computer Engineering at ACET stands at the forefront of the technological revolution. Established with a vision to develop elite developers and researchers, our program emphasizes computer architecture, data structures, cloud computing, and artificial intelligence.</p>
+            <div class="dept-specs-grid">
+              <div class="dept-spec-card">
+                <h4>Intake</h4>
+                <p>120 Seats</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Est. Year</h4>
+                <p>1995</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Degree</h4>
+                <p>B.E.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dept-hero-img-wrapper">
+            <img src="images/lab_facility.png" alt="Computer Science Laboratory Desk">
+          </div>
+        </div>
+
+        <!-- Faculty Section -->
+        <h3 class="dept-section-title">Core Faculty Members</h3>
+        <div class="faculty-grid">
+          <!-- HOD Card -->
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_ha_patil.png" alt="Dr. H. A. Patil - HOD Computer">
+            </div>
+            <div class="faculty-info">
+              <h4>Dr. H. A. Patil</h4>
+              <p class="designation">HOD & Professor</p>
+              <p class="qualification">Ph.D in Computer Science & Engg.</p>
+            </div>
+          </div>
+          <!-- Prof 2 -->
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_vivek_patil.png" alt="Prof. Vivek S. Patil">
+            </div>
+            <div class="faculty-info">
+              <h4>Prof. Vivek S. Patil</h4>
+              <p class="designation">Associate Professor</p>
+              <p class="qualification">M.Tech in Software Engg.</p>
+            </div>
+          </div>
+          <!-- Prof 3 -->
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_sarita_sawle.png" alt="Prof. Sarita Sawle">
+            </div>
+            <div class="faculty-info">
+              <h4>Prof. Sarita Sawle</h4>
+              <p class="designation">Assistant Professor</p>
+              <p class="qualification">M.E. in Information Technology</p>
+            </div>
+          </div>
+          <!-- Prof 4 -->
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_poonam_katakar.png" alt="Prof. Poonam Katakar">
+            </div>
+            <div class="faculty-info">
+              <h4>Prof. Poonam Katakar</h4>
+              <p class="designation">Assistant Professor</p>
+              <p class="qualification">M.Tech in Data Science</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Labs Section -->
+        <h3 class="dept-section-title">State-of-the-Art Labs</h3>
+        <div class="labs-grid">
+          <div class="lab-card">
+            <div class="lab-img-box">
+              <img src="images/lab_facility.png" alt="Software Engineering Lab">
+            </div>
+            <div class="lab-info">
+              <h4>Software Engineering Lab</h4>
+              <p>Designed for testing, debugging, and compiling software solutions. Equipped with latest UML modeling platforms and Agile tool suites.</p>
+              <div class="lab-specs-tag">
+                <span class="spec-tag">30 PCs</span>
+                <span class="spec-tag">Intel i7</span>
+                <span class="spec-tag">100 Mbps LAN</span>
+              </div>
+            </div>
+          </div>
+          <div class="lab-card">
+            <div class="lab-img-box">
+              <img src="images/lab_facility.png" alt="Artificial Intelligence Lab">
+            </div>
+            <div class="lab-info">
+              <h4>AI & Deep Learning Lab</h4>
+              <p>Tailored for neural network design, computer vision models, and natural language applications using high-end graphical processing cards.</p>
+              <div class="lab-specs-tag">
+                <span class="spec-tag">Nvidia GPUs</span>
+                <span class="spec-tag">Python & PyTorch</span>
+                <span class="spec-tag">Linux OS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2) INFORMATION TECHNOLOGY PANEL -->
+      <div class="dept-content-panel" id="panel-it">
+        <div class="dept-hero-grid">
+          <div class="dept-intro">
+            <h2>Information Technology (B.E.)</h2>
+            <p>The Department of Information Technology at ACET prepares students for dynamic careers in software development, cloud services, data science, and cybersecurity. Our program bridges algorithmic theory with modern framework application, grooming students for top global tech roles.</p>
+            <div class="dept-specs-grid">
+              <div class="dept-spec-card">
+                <h4>Intake</h4>
+                <p>60 Seats</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Est. Year</h4>
+                <p>2001</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Degree</h4>
+                <p>B.E.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dept-hero-img-wrapper">
+            <img src="images/lab_facility.png" alt="Information Technology Laboratory Desk">
+          </div>
+        </div>
+
+        <!-- Faculty Section -->
+        <h3 class="dept-section-title">Core Faculty Members</h3>
+        <div class="faculty-grid">
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_sk_shinde.png" alt="Dr. S. K. Shinde">
+            </div>
+            <div class="faculty-info">
+              <h4>Dr. S. K. Shinde</h4>
+              <p class="designation">HOD & Professor</p>
+              <p class="qualification">Ph.D in Cloud Computing & security</p>
+            </div>
+          </div>
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_rp_vyas.png" alt="Prof. R. P. Vyas">
+            </div>
+            <div class="faculty-info">
+              <h4>Prof. R. P. Vyas</h4>
+              <p class="designation">Associate Professor</p>
+              <p class="qualification">M.Tech in Cyber Security & Forensic</p>
+            </div>
+          </div>
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_mj_wankhade.png" alt="Prof. M. J. Wankhade">
+            </div>
+            <div class="faculty-info">
+              <h4>Prof. M. J. Wankhade</h4>
+              <p class="designation">Assistant Professor</p>
+              <p class="qualification">M.E. in Web & Mobile Technologies</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Labs Section -->
+        <h3 class="dept-section-title">State-of-the-Art Labs</h3>
+        <div class="labs-grid">
+          <div class="lab-card">
+            <div class="lab-img-box">
+              <img src="images/lab_facility.png" alt="Cloud Computing & DevOps Lab">
+            </div>
+            <div class="lab-info">
+              <h4>Cloud Computing & DevOps Lab</h4>
+              <p>Designed for teaching virtualization, microservices, containerization using Docker & Kubernetes, and automated CI/CD pipeline deployments.</p>
+              <div class="lab-specs-tag">
+                <span class="spec-tag">AWS & GCP</span>
+                <span class="spec-tag">Kubernetes</span>
+                <span class="spec-tag">30 Terminal Nodes</span>
+              </div>
+            </div>
+          </div>
+          <div class="lab-card">
+            <div class="lab-img-box">
+              <img src="images/lab_facility.png" alt="Web Technologies & Cyber Security Lab">
+            </div>
+            <div class="lab-info">
+              <h4>Web & Cyber Security Lab</h4>
+              <p>Focused on coding scalable full-stack web applications, studying encryption systems, and testing network penetration vulnerability.</p>
+              <div class="lab-specs-tag">
+                <span class="spec-tag">Kali Linux</span>
+                <span class="spec-tag">Cisco Packet Tracer</span>
+                <span class="spec-tag">Firewall Tools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3) MECHANICAL ENGINEERING PANEL -->
+      <div class="dept-content-panel" id="panel-mechanical">
+        <div class="dept-hero-grid">
+          <div class="dept-intro">
+            <h2>Mechanical Engineering (B.E.)</h2>
+            <p>Our Mechanical Engineering program delivers extensive knowledge in thermodynamics, fluid mechanics, design optimization, and robotics. We combine mathematical rigor with structural workshop expertise to groom future manufacturing and automotive innovators.</p>
+            <div class="dept-specs-grid">
+              <div class="dept-spec-card">
+                <h4>Intake</h4>
+                <p>60 Seats</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Est. Year</h4>
+                <p>1993</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Degree</h4>
+                <p>B.E.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dept-hero-img-wrapper">
+            <img src="images/lab_facility.png" alt="Mechanical Machinery Shop">
+          </div>
+        </div>
+
+        <!-- Faculty Section -->
+        <h3 class="dept-section-title">Core Faculty Members</h3>
+        <div class="faculty-grid">
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_sb_patil.png" alt="Dr. S. B. Patil - HOD Mechanical">
+            </div>
+            <div class="faculty-info">
+              <h4>Dr. S. B. Patil</h4>
+              <p class="designation">HOD & Professor</p>
+              <p class="qualification">Ph.D in Thermal Engineering</p>
+            </div>
+          </div>
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_sarita_sawle.png" alt="Prof. R. M. Ghodke" style="transform: scaleX(-1); filter: brightness(1.05) contrast(0.95);">
+            </div>
+            <div class="faculty-info">
+              <h4>Prof. R. M. Ghodke</h4>
+              <p class="designation">Associate Professor</p>
+              <p class="qualification">M.Tech in Machine Design</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Labs Section -->
+        <h3 class="dept-section-title">State-of-the-Art Labs</h3>
+        <div class="labs-grid">
+          <div class="lab-card">
+            <div class="lab-img-box">
+              <img src="images/lab_facility.png" alt="CAD/CAM Lab">
+            </div>
+            <div class="lab-info">
+              <h4>CAD/CAM & Simulation Lab</h4>
+              <p>Equipped with industry-standard structural modeling and simulation packages, such as ANSYS, SolidWorks, and AutoCAD.</p>
+              <div class="lab-specs-tag">
+                <span class="spec-tag">ANSYS Suite</span>
+                <span class="spec-tag">SolidWorks</span>
+                <span class="spec-tag">3D Printing Studio</span>
+              </div>
+            </div>
+          </div>
+          <div class="lab-card">
+            <div class="lab-img-box">
+              <img src="images/lab_facility.png" alt="IC Engine Lab">
+            </div>
+            <div class="lab-info">
+              <h4>Internal Combustion (IC) Engine Lab</h4>
+              <p>Provides experimental testing beds for petrol/diesel multi-cylinder engines, exhaust gas analyzers, and turbocharging performance metrics.</p>
+              <div class="lab-specs-tag">
+                <span class="spec-tag">Dynamometer</span>
+                <span class="spec-tag">Gas Analyzer</span>
+                <span class="spec-tag">Variable Compression</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4) ELECTRICAL ENGINEERING PANEL -->
+      <div class="dept-content-panel" id="panel-electrical">
+        <div class="dept-hero-grid">
+          <div class="dept-intro">
+            <h2>Electrical Engineering (B.E.)</h2>
+            <p>From grid distribution networks to high-speed electrical traction, our Electrical Engineering Department provides core grounding in power systems, electric machines, high voltage networks, and electric vehicles.</p>
+            <div class="dept-specs-grid">
+              <div class="dept-spec-card">
+                <h4>Intake</h4>
+                <p>60 Seats</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Est. Year</h4>
+                <p>1998</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Degree</h4>
+                <p>B.E.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dept-hero-img-wrapper">
+            <img src="images/lab_facility.png" alt="Electrical Power Systems Lab">
+          </div>
+        </div>
+
+        <!-- Faculty Section -->
+        <h3 class="dept-section-title">Core Faculty Members</h3>
+        <div class="faculty-grid">
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_ha_patil.png" alt="Dr. A. P. Ghodke" style="transform: scaleX(-1); filter: brightness(0.95) saturate(1.1);">
+            </div>
+            <div class="faculty-info">
+              <h4>Dr. A. P. Ghodke</h4>
+              <p class="designation">HOD & Professor</p>
+              <p class="qualification">Ph.D in Power Grid Controls</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Labs Section -->
+        <h3 class="dept-section-title">State-of-the-Art Labs</h3>
+        <div class="labs-grid">
+          <div class="lab-card">
+            <div class="lab-img-box">
+              <img src="images/lab_facility.png" alt="Power Electronics Lab">
+            </div>
+            <div class="lab-info">
+              <h4>Power Electronics & Drives Lab</h4>
+              <p>Designed for study of thyristors, MOSFETs, speed controls of induction motors, and EV inverter testing setups.</p>
+              <div class="lab-specs-tag">
+                <span class="spec-tag">EV Test Beds</span>
+                <span class="spec-tag">Thyristor Kits</span>
+                <span class="spec-tag">AC/DC Motors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5) ENTC ENGINEERING PANEL -->
+      <div class="dept-content-panel" id="panel-entc">
+        <div class="dept-hero-grid">
+          <div class="dept-intro">
+            <h2>Electronics & Telecommunication Engineering (B.E.)</h2>
+            <p>Our ENTC Engineering program bridges communication technologies with hardware microelectronics. We focus heavily on embedded hardware, digital signal processing (DSP), VLSI microchips, and 5G cellular communication networks.</p>
+            <div class="dept-specs-grid">
+              <div class="dept-spec-card">
+                <h4>Intake</h4>
+                <p>60 Seats</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Est. Year</h4>
+                <p>1993</p>
+              </div>
+              <div class="dept-spec-card">
+                <h4>Degree</h4>
+                <p>B.E.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dept-hero-img-wrapper">
+            <img src="images/lab_facility.png" alt="Electronic Circuits Breadboards">
+          </div>
+        </div>
+
+        <!-- Faculty Section -->
+        <h3 class="dept-section-title">Core Faculty Members</h3>
+        <div class="faculty-grid">
+          <div class="faculty-card">
+            <div class="faculty-img-box">
+              <img src="images/faculty_sk_shinde.png" alt="Dr. J. N. Shekokar" style="transform: scaleX(-1); filter: contrast(1.05) brightness(1.02);">
+            </div>
+            <div class="faculty-info">
+              <h4>Dr. J. N. Shekokar</h4>
+              <p class="designation">HOD & Professor</p>
+              <p class="qualification">Ph.D in Signal Processing</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Labs Section -->
+        <h3 class="dept-section-title">State-of-the-Art Labs</h3>
+        <div class="labs-grid">
+          <div class="lab-card">
+            <div class="lab-img-box">
+              <img src="images/lab_facility.png" alt="Embedded Systems Lab">
+            </div>
+            <div class="lab-info">
+              <h4>Embedded Systems & IoT Lab</h4>
+              <p>Features microcontroller boards (Arduino, Raspberry Pi, ESP32) for prototyping smart sensor grids, mesh networking, and microcode compilations.</p>
+              <div class="lab-specs-tag">
+                <span class="spec-tag">Raspberry Pi 4</span>
+                <span class="spec-tag">ESP32 Grids</span>
+                <span class="spec-tag">IoT Sensor Kits</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <div class="logo-section" style="margin-bottom:1.5rem;">
+          <img src="images/logo.svg" alt="ACET Logo">
+        </div>
+        <p>Anuradha College of Engineering and Technology (ACET) is a pioneer engineering institution in Vidarbha, delivering top-quality education, values, and career opportunities to students since 1993.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/ACETChikhali" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/school/anuradha-college-of-engineering-and-technology/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/acet_chikhali/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://twitter.com/ACET_Chikhali" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About Institute</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="admissions.html">Admissions 2026</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="placement.html">Placements</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <ul class="footer-links">
+          <li><a href="campus-life.html">Campus Amenities</a></li>
+          <li><a href="campus-life.html#clubs">Student Activity Clubs</a></li>
+          <li><a href="contact.html">Reach Campus</a></li>
+          <li><a href="#">Mandatory Disclosures</a></li>
+          <li><a href="#">SGBAU University Portal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Reach Us</h3>
+        <ul class="contact-info-list">
+          <li>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            <span>Anuradha Nagar, Chikhali,<br>Buldhana District, Maharashtra - 443201</span>
+          </li>
+          <li>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+            </svg>
+            <span>+91 7264 242063 / 242232</span>
+          </li>
+          <li>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L22 8m-2 11H4a2 2 0 01-2-2V8a2 2 0 012-2h16a2 2 0 012 2v10a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>principal@aecc.ac.in</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Anuradha College of Engineering and Technology, Chikhali (ACET). All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Files -->
+  <script src="js/main.js"></script>
+  <script src="js/departments.js"></script>
+</body>
+</html>
